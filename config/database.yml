@@ -33,7 +33,7 @@ test:
   host: localhost
   port: 3306
 
-production:
+productions:
   adapter: mysql2
   encoding: utf8
   reconnect: false
@@ -42,4 +42,4 @@ production:
   username: jack
   password: jill
   host: localhost
-  port: 33064
+  port: 3306
