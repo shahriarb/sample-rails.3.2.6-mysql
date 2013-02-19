@@ -14,8 +14,6 @@ development:
   reconnect: false
   database: mysql_development
   pool: 5
-  username: jack
-  password: jill
   host: localhost
   port: 3306
 
