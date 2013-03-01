@@ -1,4 +1,9 @@
 development:
+    first_thing:
+      - source: /.cloud66/files/first_thing.sh
+        destination: ~/first_thing.sh
+        target: rails
+        execute: true
     before_mysql:
       - source: /.cloud66/files/before_mysql.sh
         destination: ~/before_mysql.sh
