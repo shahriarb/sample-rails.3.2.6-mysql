@@ -7,10 +7,10 @@ development:
     before_mysql:
       - source: /.cloud66/files/before_mysql.sh
         destination: ~/before_mysql.sh
-        target: rails
+        target: mysql
         execute: true
     after_mysql:
       - source: /.cloud66/files/after_mysql.sh
         destination: ~/after_mysql.sh
-        target: rails
+        target: mysql
         execute: true
