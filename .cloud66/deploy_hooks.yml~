@@ -1,0 +1,39 @@
+development:
+    first_thing:
+      - source: /.cloud66/files/first_thing.sh
+        destination: ~/first_thing.sh
+        target: rails
+        execute: true
+      - source: /.cloud66/files/multi_step.txt
+        destination: ~/multi1.txt
+        target: rails
+      - source: /.cloud66/files/first_thing_2.sh
+        destination: ~/first_thing_2.sh
+        target: rails
+        execute: true
+    before_rails:
+      - source: /.cloud66/files/before_rails.sh
+        destination: ~/before_rails.sh
+        target: rails
+        execute: true
+    after_rails:
+      - source: /.cloud66/files/after_rails.sh
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/after_rails.sh
+        target: rails
+        execute: true
+    before_agent:
+      - source: /.cloud66/files/before_agent.sh
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/before_agent.sh
+        target: rails
+        execute: true
+    after_agent:
+      - source: /.cloud66/files/after_agent.sh
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/after_agent.sh
+        target: rails
+        execute: true
+    last_thing:
+      - source: /.cloud66/files/last_thing.sh
+        destination: <%= ENV['RAILS_STACK_PATH'] %>/last_thing.sh
+        target: rails
+        execute: true
+
