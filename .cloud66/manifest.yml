@@ -1,0 +1,4 @@
+development:
+    memcached: 
+        shared_group: db
+
