@@ -39,5 +39,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-# gem 'dalli'
+gem 'dalli'
 gem 'resque'
