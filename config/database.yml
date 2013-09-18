@@ -16,7 +16,8 @@ development:
   pool: 5
   username: jack
   password: jill
-  host: localhost
+  host: 198.58.112.87
+#localhost
   port: 3306
 
 # Warning: The database defined as "test" will be erased and
