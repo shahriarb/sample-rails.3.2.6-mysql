@@ -40,4 +40,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 #gem 'dalli'
-gem 'resque'
+#gem 'resque'
