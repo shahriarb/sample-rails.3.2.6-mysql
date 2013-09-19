@@ -31,7 +31,8 @@ test:
   pool: 5
   username: jack
   password: jill
-  host: localhost
+  host: 198.58.112.87
+#localhost
   port: 3306
 
 production:
