@@ -1,4 +1,0 @@
-development:
-    mysql: 
-        servers:
-            - server: external
